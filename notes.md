@@ -4,6 +4,7 @@
 - [2023-02](#2023-02)
   - [02](#02)
   - [05](#05)
+  - [09](#09)
 
 
 The book [[*link*](https://d2l.ai/chapter_preface/index.html)]
@@ -68,3 +69,13 @@ I'll spend some time to review the preliminary chapter tomorrow.
 * Reducing a matrix along both rows and columns via summation is equivalent to summing up all the elements of the matrix `tf.reduce_sum(A, axis=[0, 1]), tf.reduce_sum(A)`
 * A smart way to understand the dot product between a $mxn$ matrix A and a $n$-dimensional vector $x$ and the dot product between 2 matrices [[*link*](https://d2l.ai/chapter_preliminaries/linear-algebra.html#matrix-vector-products)]
 
+## 09
+**Content reviewed**
+- 2. Preliminaries (Tensorflow)
+  - 2.4 Calculus
+  - 2.5 Automatic Differentiation
+
+**Notes**
+* Common partial derivative rules where matrix and vector multiplications are involved [[*link*](https://d2l.ai/chapter_preliminaries/calculus.html#partial-derivatives-and-gradients)]
+* functions - `tf.tensordot()` and `tf.reduce_sum()`
+* 
