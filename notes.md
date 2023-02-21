@@ -5,6 +5,7 @@
   - [02](#02)
   - [05](#05)
   - [09](#09)
+  - [12](#12)
 
 
 The book [[*link*](https://d2l.ai/chapter_preface/index.html)]
@@ -78,4 +79,21 @@ I'll spend some time to review the preliminary chapter tomorrow.
 **Notes**
 * Common partial derivative rules where matrix and vector multiplications are involved [[*link*](https://d2l.ai/chapter_preliminaries/calculus.html#partial-derivatives-and-gradients)]
 * functions - `tf.tensordot()` and `tf.reduce_sum()`
-* 
+
+
+## 12
+
+**Content reviewed**
+- 2. Preliminaries (Tensorflow)
+  - 2.1-2.6 (including previously covered topics)
+
+**Notes**
+- `d2l` tutorial at KDD 2019 [[*link*](https://github.com/astonzhang/KDD19-tutorial)]
+- DL paper 精读 [[*link*](https://github.com/mli/paper-reading)]
+- Tensors are immutable, variables are mutable
+- `autograd` is available for auto differentiation
+- More details can be found [here](./notebooks/02_preliminaries_review.ipynb)
+
+
+
+
