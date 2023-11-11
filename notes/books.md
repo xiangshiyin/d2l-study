@@ -1,0 +1,5 @@
+- [ ] The elements of statistical learning
+- [ ] Hands-on machine learning
+- [ ] Design data intensive applications
+- [ ] Machine learning system designs
+- [ ] Natural language processing with transformers
