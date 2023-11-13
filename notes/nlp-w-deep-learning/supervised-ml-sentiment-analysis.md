@@ -52,6 +52,36 @@ $$
 h(x^{(i)}, \theta) = \frac{1}{1+e^{-\theta^T x^{(i)}}}
 $$
 
+## Training LR
+![](../../pics/train-lr-demo.png)
+
+```mermaid
+graph TD;
+    A(Initialize parameters)-->B(Classify/predict);
+    B-->C(Get gradient);
+    C-->D(Update)
+    D-->E(Get Loss)
+    E--"Until good enough"-->B
+```
+
+
+## Test LR
+$$pred = h(X_{val}, \theta) \ge 0.5$$
+- Accuracy: % of times predicted correct labels
+
+## Cost function of LR
+$$
+J(\theta) = -\frac{1}{m}\sum_{i=1}^m (y^{(i)} logh(x^{(i)} \theta) + (1-y^{(i)})log(1-h(x^{(i)}, \theta)))
+$$
+
+![](../../pics/train-cost-function.png)
+
+A vectorized implementation is
+
+$$
+h = g(X \theta)
+J(\theta) = \frac{1}{m} \cdot (-y^T log(h) - (1-y)^{T} log(1-h))
+$$
 
 ## Reference
 - [code sample 1](https://github.com/FahdSeddik/DeepLearning.AI-Natural-Language-Processing-Specialization/tree/main)
